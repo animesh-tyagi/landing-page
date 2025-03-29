@@ -135,5 +135,48 @@ button{
     font-weight: bold;
     color: rgba(53, 53, 53, 0.905);
 }
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 125px;
+}
+.block {
+    display: flex;
+    background-color:#3882F2;
+    justify-content: space-between;
+    border-radius: 16px;
+    padding: 50px 100px;
+    gap: 8px;
+}
+.block .title {
+    font-size: 24px;
+    color:#F9FAF8;
+    margin: 0;
+}
+.block p {
+    font-size: 18px;
+    color: #e5e7ebd0;
+    margin: 0;
+}
+.block button {
+    height: 32px;
+    align-self: flex-end;
+    border-color:#F9FAF8;
+}
+
+.footer {
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.footer p {
+    font-size: 18px;
+    color: #e5e7ebd0;
+}
 
 
